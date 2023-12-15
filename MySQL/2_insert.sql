@@ -1,10 +1,10 @@
 use demo;
 select database();
-insert into customer(firstName,lastName,age) values ( 'Nayan','Gowda', 22);
-insert into customer(firstName,lastName,age) values ( 'Joey','Blue', 40);
-insert into customer(firstName,lastName,age) values ( 'Raj','Vikramaditya', 27);
-insert into customer(firstName,lastName,age) values ( 'Aditya','Verma', 30);
-insert into customer(firstName,lastName,age) values ( 'Shradha','Khapra', 26);
-insert into customer(firstName,lastName,age) values ( 'Raja','krishna', 32);
-insert into customer(firstName,lastName,age) values ( 'RajaRajendra','Nagavalli', 120);
-select * from customer;
+insert into tab(firstName,lastName,age) values ( 'Nayan','Gowda', 22);
+insert into tab(firstName,lastName,age) values ( 'Joey','Blue', 40);
+insert into tab(firstName,lastName,age) values ( 'Raj','Vikramaditya', 27);
+insert into tab(firstName,lastName,age) values ( 'Aditya','Verma', 30);
+insert into tab(firstName,lastName,age) values ( 'Shradha','Khapra', 26);
+insert into tab(firstName,lastName,age) values ( 'Raja','krishna', 32);
+insert into tab(firstName,lastName,age) values ( 'RajaRajendra','Nagavalli', 120);
+select * from tab;
