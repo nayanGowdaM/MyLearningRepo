@@ -6,4 +6,3 @@ add foreign key(ProductId) references Product(id);
 
 
 select * from Orders;
-
