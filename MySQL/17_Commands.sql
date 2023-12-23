@@ -59,7 +59,7 @@ select * from customer
 where city = 'delhi' and age=26;
 
 
-in filter
+-- in filter
 select * from customer 
 where city in ('mumbai','delhi');
 
