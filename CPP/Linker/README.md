@@ -20,3 +20,6 @@
 5. Difference between Angular braces ( #include<iostream> ) and inverted commas ( #include "header.h" ):
     header.h is relative to current folder (you must declare #inlcude "childDir/header.h" if the header file is in a directory below)  
     <iostream >is not relative, it is assosited with the include statement itself -- only for copiler input parts
+
+
+Note: iostream is just a file without any extension
