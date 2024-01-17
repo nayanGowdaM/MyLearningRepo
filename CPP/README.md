@@ -30,3 +30,6 @@ source Code( text ) -> Compiler -> Binary ( Library or executable Program)
 Compiles the source code into machine code 
 
 ### Linker 
+Links the compiled files 
+If there is any ambiguity in the funcitons used or if the funcions are not present results inlinker error
+
