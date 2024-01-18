@@ -23,3 +23,21 @@ int System::getInt(){
     return n;
 }
 
+void Log::setLogLevel(int level){
+    m_logLevel=level;
+}
+void Log::error(const char* msg){
+    if(m_logLevel>=LogLevelError){
+        std::cout<<" [ERROR] "<<msg<<std::endl;
+    }
+}
+void Log::warn(const char* msg){
+    if(m_logLevel>=LogLevelWarn){
+        std::cout<<" [WARNING] "<<msg<<std::endl;
+    }
+}
+void Log::info(const char* msg){
+    if(m_logLevel>=LogLevelInfo){
+        std::cout<<" [INFO] "<<msg<<std::endl;
+    }
+}

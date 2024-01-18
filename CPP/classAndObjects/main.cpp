@@ -73,5 +73,10 @@ int main(){
         sc.Log(s2[i].name);
         sc.Log(s2[i].age);
     }
+
+    sc.Log("Writing into console");
+    Log log;
+    log.setLogLevel(log.LogLevelError);
+    log.error("Ohh No!");
     return 0;
 }
