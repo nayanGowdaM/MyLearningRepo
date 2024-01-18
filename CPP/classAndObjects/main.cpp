@@ -18,8 +18,8 @@ int main(){
     sc.Log(s.age);
 
     sc.Log("");
-    sc.Log("Creates a Student object using heap allocati
-    // Student s2[]object using heap allocation and returns a pointer to object
+    sc.Log("Creates a Student object using heap allocation and returns a pointer to object");
+    Student* st = new Student();  // Creates a Student object using heap allocation and returns a pointer to object
     st->name="Gowda";
     st->age=200;
     sc.Log(st->name);
