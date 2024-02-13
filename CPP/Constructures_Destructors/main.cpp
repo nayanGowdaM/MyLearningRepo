@@ -29,10 +29,12 @@ class Entity{
 
 };
 
-void func(){
-    Entity e;
+void func(int i){
+    if( !i) return ;
+    Entity e(i,2*i);
     e.print();
-    std::cout<<"scope ends for obj in func "<<std::endl;
+    func(i-1);
+    std::cout<<"scope ends for obj in func "<<i<<std::endl;
 
 }
 
@@ -43,6 +45,10 @@ int main(){
     Entity e1(2, 6); //Using Constructor with 2 parameters
     e1.print();\
     std::cout<<std::endl;
-    func();
+    func(3);
+
+    Entity* e2 = new Entity( 10,20);
+    e2->print();
+    delete e2;//Need to destroy if the object is created on the heap 
     return 0;
 }
