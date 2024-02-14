@@ -1,0 +1,12 @@
+1. Load Data 
+2. Data Clean: Remove all the attributes except the target and txt 
+3. Check for missing values and drop all duplicates
+4. Do some analysis using pair plot , number of char, number of words and number of sentances in spam and non spam and visualize the same 
+5. Data Preprocessing : 
+    Remove the stopping words, tokenize the text 
+    Stemming of the text 
+
+6. Build the vocabulary of words belonging to spam and non spam along with the frequency 
+7. Vectorize the vocabulary as X features and target as y
+8. Split into train and test 
+9. Fit and models and analyze the models performence 
